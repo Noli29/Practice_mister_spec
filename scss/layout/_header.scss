@@ -1,0 +1,49 @@
+header {
+  nav {
+    &.navbar, .navbar-default {
+      border: #231f20;
+      border-radius: 0;
+      background-color: #231f20;
+
+      ul {
+        &.nav, .navbar-nav {
+          li {
+            a {
+              color: #ffffff;
+              font: 300 15px Roboto, sans-serif;
+
+              &:hover {
+                color: #e47203;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+
+        &.navbar-right {
+          li {
+            a {
+              text-decoration: underline;
+              
+              &:hover {
+                color: #e47203;
+              }
+            }
+
+            &:first-child {
+              a {
+                color: #e47203;
+                font: 500 17px Roboto, sans-serif;
+                
+                &:hover {
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,40 @@
+.services {
+
+  height: 936px;
+  border: 1px solid #ffffff;
+  background-color: #fcb040;
+
+  margin-bottom: 50px;
+
+  h3 {
+    color: #231f20;
+    font-family: 500 24px/33px Roboto, sans-serif;
+    padding-bottom: 25px;
+  }
+
+  .blocks {
+    div {
+      padding: 15px 10px;
+      border-radius: 10px;
+      border: 1px solid #e47203;
+      background-color: #fff;
+      display: inline-block;
+      margin-top: 20px;
+      margin-left: 50px;
+
+      img {
+
+        margin-bottom: 15px;
+      }
+
+      p {
+        margin: 15px 0;
+        color: #231f20;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+      }
+    }
+  }
+}
