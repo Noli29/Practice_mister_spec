@@ -1,5 +1,6 @@
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 .container::before,
 .container::after,
