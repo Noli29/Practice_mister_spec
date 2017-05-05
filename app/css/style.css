@@ -602,7 +602,7 @@ main .services .blocks a {
   header div.logo-header div.logo {
     float: left;
     display: inline-block; }
-    header div.logo-header div.logo img {
+    header div.logo-header div.logo a img {
       width: 50%; }
     header div.logo-header div.logo p {
       margin-top: 10px;
