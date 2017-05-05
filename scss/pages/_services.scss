@@ -1,34 +1,32 @@
 .services {
 
-  height: 936px;
-  border: 1px solid #ffffff;
+  height: 890px;
   background-color: #fcb040;
-
   margin-bottom: 50px;
 
   h3 {
     color: #231f20;
-    font-family: 500 24px/33px Roboto, sans-serif;
-    padding-bottom: 25px;
+    font: 500 24px/33px Roboto, sans-serif;
+    padding-top: 25px;
+    text-transform: uppercase;
   }
 
   .blocks {
     div {
-      padding: 15px 10px;
+      padding: 20px 30px 30px;
       border-radius: 10px;
       border: 1px solid #e47203;
       background-color: #fff;
       display: inline-block;
-      margin-top: 20px;
-      margin-left: 50px;
+      margin-top: 15px;
+      margin-left: 30px;
 
       img {
-
         margin-bottom: 15px;
       }
 
       p {
-        margin: 15px 0;
+        margin: 15px 0 25px;
         color: #231f20;
         font-family: Roboto, sans-serif;
         font-size: 16px;

@@ -36,66 +36,253 @@ header nav.navbar, header nav .navbar-default {
     header nav.navbar ul.navbar-right li:first-child a:hover, header nav .navbar-default ul.navbar-right li:first-child a:hover {
       color: #fff; }
 
+header div.logo-header {
+  margin-top: 45px;
+  margin-bottom: 25px; }
+  header div.logo-header div.logo {
+    float: left;
+    display: inline-block; }
+    header div.logo-header div.logo p {
+      margin-top: 10px;
+      color: #231f20;
+      font: 300 22px Roboto, sans-serif; }
+      header div.logo-header div.logo p span {
+        margin-left: 70px; }
+  header div.logo-header div.list {
+    display: inline-block; }
+    header div.logo-header div.list ul {
+      list-style: none; }
+      header div.logo-header div.list ul li {
+        text-align: left;
+        padding-bottom: 20px; }
+        header div.logo-header div.list ul li span {
+          padding-left: 20px; }
+  header div.logo-header div.phone {
+    float: right;
+    display: inline-block;
+    text-align: right; }
+    header div.logo-header div.phone p {
+      color: #001f20;
+      font: 300 16px Roboto, sans-serif; }
+      header div.logo-header div.phone p:first-child {
+        color: #231f20;
+        font-family: "Geo Slb 712 Medium CBT", sans-serif;
+        font-size: 46px;
+        font-weight: 400; }
+      header div.logo-header div.phone p span {
+        color: #fcb040;
+        font-family: "Geo Slb 712 Medium CBT", sans-serif;
+        font-size: 18px;
+        font-weight: 400; }
+
+header div.kitchen {
+  height: 560px;
+  background: url("../images/kitchen.png") no-repeat -285px;
+  background-size: cover; }
+  header div.kitchen img {
+    margin-left: -168px;
+    float: left;
+    margin-top: -14px;
+    width: 76%; }
+  header div.kitchen .form {
+    margin-top: 166px;
+    padding: 50px 60px 25px;
+    display: inline-block;
+    box-shadow: 0 6px 6px rgba(45, 53, 50, 0);
+    background-color: #ffffff;
+    opacity: 0.81; }
+    header div.kitchen .form p {
+      color: #231f20;
+      font: 500 24px Roboto, sans-serif; }
+      header div.kitchen .form p:last-child {
+        margin-top: 35px;
+        color: #231f20;
+        font: 300 14px Roboto, sans-serif; }
+    header div.kitchen .form div.form-act div {
+      padding-bottom: 30px; }
+      header div.kitchen .form div.form-act div:first-child {
+        padding-top: 15px; }
+      header div.kitchen .form div.form-act div input.form-control {
+        border-radius: 9px;
+        border: 1px solid #ebebeb;
+        background-color: #ffffff; }
+        header div.kitchen .form div.form-act div input.form-control:focus {
+          border: 1px solid #e47203;
+          box-shadow: none; }
+
+footer {
+  height: 250px;
+  background-color: #231f20; }
+  footer nav.navbar, footer nav .navbar-default {
+    min-height: 0;
+    margin-bottom: 0;
+    border: #231f20;
+    border-radius: 0;
+    background-color: #231f20; }
+    footer nav.navbar ul.nav li a, footer nav.navbar ul .navbar-nav li a, footer nav .navbar-default ul.nav li a, footer nav .navbar-default ul .navbar-nav li a {
+      color: #ffffff;
+      font: 300 15px Roboto, sans-serif; }
+      footer nav.navbar ul.nav li a:hover, footer nav.navbar ul .navbar-nav li a:hover, footer nav .navbar-default ul.nav li a:hover, footer nav .navbar-default ul .navbar-nav li a:hover {
+        color: #e47203;
+        text-decoration: underline; }
+  footer div.line {
+    border-bottom: 1px solid #ffffff;
+    background-color: #d4e8ef;
+    opacity: 0.2;
+    margin-bottom: 25px; }
+  footer div .logo-footer {
+    float: left;
+    display: inline-block; }
+  footer div .text {
+    display: inline-block; }
+    footer div .text p {
+      color: #ffffff;
+      font: 300 28px Roboto, sans-serif;
+      text-align: left; }
+      footer div .text p span {
+        padding-left: 75px; }
+  footer div .phone {
+    float: right;
+    display: inline-block; }
+    footer div .phone p {
+      text-align: right;
+      color: #ffffff;
+      font: 300 16px Roboto, sans-serif; }
+      footer div .phone p span {
+        color: #fcb040;
+        font-family: "Geo Slb 712 Medium CBT", sans-serif;
+        font-size: 18px;
+        font-weight: 400; }
+      footer div .phone p:first-child {
+        color: #ffffff;
+        font-family: "Geo Slb 712 Medium CBT", sans-serif;
+        font-size: 46px;
+        font-weight: 400; }
+
 main {
   background-color: #fff; }
 
 .services {
-  height: 936px;
-  border: 1px solid #ffffff;
+  height: 890px;
   background-color: #fcb040;
   margin-bottom: 50px; }
   .services h3 {
     color: #231f20;
-    font-family: 500 24px/33px Roboto, sans-serif;
-    padding-bottom: 25px; }
+    font: 500 24px/33px Roboto, sans-serif;
+    padding-top: 25px;
+    text-transform: uppercase; }
   .services .blocks div {
-    padding: 15px 10px;
+    padding: 20px 30px 30px;
     border-radius: 10px;
     border: 1px solid #e47203;
     background-color: #fff;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 50px; }
+    margin-top: 15px;
+    margin-left: 30px; }
     .services .blocks div img {
       margin-bottom: 15px; }
     .services .blocks div p {
-      margin: 15px 0;
+      margin: 15px 0 25px;
       color: #231f20;
       font-family: Roboto, sans-serif;
       font-size: 16px;
       font-weight: 500;
       line-height: 22px; }
 
-.master h3 {
-  color: #231f20;
-  font: 500 24px/22px Roboto, sans-serif;
-  text-transform: uppercase;
-  text-align: left;
-  padding-bottom: 25px; }
+.master {
+  margin: 50px 0; }
+  .master h3 {
+    color: #231f20;
+    font: 500 24px/22px Roboto, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 25px; }
+  .master img {
+    float: right;
+    margin: 0 7px 7px 45px; }
+  .master p {
+    color: #666464;
+    font: 400 14px Roboto, sans-serif;
+    text-align: left; }
 
-.master img {
-  float: right;
-  margin: 0 7px 7px 45px; }
+header div.logo-header div.phone a.btn {
+  border-radius: 22px;
+  background-color: #e47203;
+  padding: 10px 25px;
+  color: #ffffff;
+  font: 500 14px Roboto, sans-serif;
+  text-decoration: none; }
+  header div.logo-header div.phone a.btn:hover {
+    color: #e47203;
+    background-color: #fff;
+    border: 2px solid #e47203;
+    text-decoration: none; }
 
-.master p {
-  color: #666464;
-  font: 400 14px Roboto, sans-serif;
-  text-align: left; }
+header div.kitchen div.form-act a {
+  opacity: 1;
+  color: #ffffff;
+  font: 500 14px Roboto, sans-serif;
+  border-radius: 22px;
+  background-color: #e47203;
+  padding: 10px 25px;
+  text-decoration: none; }
+  header div.kitchen div.form-act a:hover {
+    color: #e47203;
+    background-color: #fff;
+    border: 2px solid #e47203;
+    text-decoration: none; }
 
 main .services .blocks a {
+  text-decoration: none;
+  margin-top: 15px;
   border-radius: 17px;
   background-color: #e47203;
   padding: 10px 35px;
   color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 500; }
+  font: 500 14px Roboto, sans-serif; }
+  main .services .blocks a:hover {
+    color: #e47203;
+    background-color: #fff;
+    border: 2px solid #e47203;
+    text-decoration: none; }
+
+header div.logo-header div.phone a.btn {
+  border-radius: 22px;
+  background-color: #e47203;
+  padding: 10px 25px;
+  color: #ffffff;
+  font: 500 14px Roboto, sans-serif;
+  text-decoration: none; }
+  header div.logo-header div.phone a.btn:hover {
+    color: #e47203;
+    background-color: #fff;
+    border: 2px solid #e47203;
+    text-decoration: none; }
+
+header div.kitchen div.form-act a {
+  opacity: 1;
+  color: #ffffff;
+  font: 500 14px Roboto, sans-serif;
+  border-radius: 22px;
+  background-color: #e47203;
+  padding: 10px 25px;
+  text-decoration: none; }
+  header div.kitchen div.form-act a:hover {
+    color: #e47203;
+    background-color: #fff;
+    border: 2px solid #e47203;
+    text-decoration: none; }
 
 main .services .blocks a {
+  text-decoration: none;
+  margin-top: 15px;
   border-radius: 17px;
   background-color: #e47203;
   padding: 10px 35px;
   color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 500; }
+  font: 500 14px Roboto, sans-serif; }
+  main .services .blocks a:hover {
+    color: #e47203;
+    background-color: #fff;
+    border: 2px solid #e47203;
+    text-decoration: none; }

@@ -1,4 +1,5 @@
 header {
+
   nav {
     &.navbar, .navbar-default {
       border: #231f20;
@@ -46,4 +47,122 @@ header {
     }
   }
 
+  div.logo-header {
+
+    margin-top: 45px;
+    margin-bottom: 25px;
+
+      div {
+        &.logo {
+          float: left;
+          display: inline-block;
+
+          p {
+            margin-top: 10px;
+            color: #231f20;
+            font: 300 22px Roboto, sans-serif;
+
+            span {
+              margin-left: 70px;
+            }
+          }
+        }
+
+        &.list {
+          display: inline-block;
+
+           ul {
+             list-style: none;
+
+             li {
+               text-align: left;
+               padding-bottom: 20px;
+               span {
+                 padding-left: 20px;
+               }
+             }
+           }
+        }
+
+        &.phone {
+          float: right;
+          display: inline-block;
+          text-align: right;
+
+          p {
+            color: #001f20;
+            font: 300 16px Roboto, sans-serif;
+
+            &:first-child {
+              color: #231f20;
+              font-family: "Geo Slb 712 Medium CBT", sans-serif;
+              font-size: 46px;
+              font-weight: 400;
+            }
+
+            span {
+              color: #fcb040;
+              font-family: "Geo Slb 712 Medium CBT", sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+            }
+          }
+      }
+    }
+  }
+
+  div.kitchen {
+    height: 560px;
+    background: url("../images/kitchen.png") no-repeat -285px;
+    background-size: cover;
+
+    img {
+      margin-left: -168px;
+      float: left;
+      margin-top: -14px;
+      width: 76%;
+    }
+
+    .form {
+      margin-top: 166px;
+      padding: 50px 60px 25px;
+      display: inline-block;
+      box-shadow: 0 6px 6px rgba(45, 53, 50, 0);
+      background-color: #ffffff;
+      opacity: 0.81;
+
+      p {
+        color: #231f20;
+        font: 500 24px Roboto, sans-serif;
+
+        &:last-child {
+          margin-top: 35px;
+          color: #231f20;
+          font: 300 14px Roboto, sans-serif;
+        }
+      }
+
+      div.form-act {
+        div {
+          &:first-child {
+            padding-top: 15px;
+          }
+          padding-bottom: 30px;
+
+          input.form-control {
+            border-radius: 9px;
+            border: 1px solid #ebebeb;
+            background-color: #ffffff;
+
+            &:focus {
+              border: 1px solid #e47203;
+
+              -webkit-box-shadow: none;
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+  }
 }

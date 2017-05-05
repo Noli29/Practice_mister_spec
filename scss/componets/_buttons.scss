@@ -1,14 +1,64 @@
+header {
+  div.logo-header{
+      div.phone {
+          a.btn {
+            border-radius: 22px;
+            background-color: #e47203;
+            padding: 10px 25px;
+            color: #ffffff;
+            font: 500 14px Roboto, sans-serif;
+            text-decoration: none;
+
+            &:hover {
+              color: #e47203;
+              background-color: #fff;
+              border: 2px solid #e47203;
+              text-decoration: none;
+            }
+          }
+      }
+  }
+
+  div.kitchen {
+    div.form-act {
+      a {
+        opacity: 1;
+        color: #ffffff;
+        font: 500 14px Roboto, sans-serif;
+        border-radius: 22px;
+        background-color: #e47203;
+        padding: 10px 25px;
+        text-decoration: none;
+
+        &:hover {
+          color: #e47203;
+          background-color: #fff;
+          border: 2px solid #e47203;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
 main {
   .services {
     .blocks {
       a {
+        text-decoration: none;
+        margin-top: 15px;
         border-radius: 17px;
         background-color: #e47203;
         padding: 10px 35px;
         color: #ffffff;
-        font-family: Roboto, sans-serif;
-        font-size: 14px;
-        font-weight: 500;
+        font: 500 14px Roboto, sans-serif;
+
+        &:hover {
+          color: #e47203;
+          background-color: #fff;
+          border: 2px solid #e47203;
+          text-decoration: none;
+        }
       }
     }
   }
