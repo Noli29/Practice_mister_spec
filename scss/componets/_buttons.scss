@@ -63,3 +63,104 @@ main {
     }
   }
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  main {
+    .services {
+      .blocks {
+        a {
+          text-decoration: none;
+          margin-top: 15px;
+          border-radius: 17px;
+          background-color: #e47203;
+          padding: 5px 25px;
+          color: #ffffff;
+          font: 500 11px Roboto, sans-serif;
+
+          &:hover {
+            color: #e47203;
+            background-color: #fff;
+            border: 2px solid #e47203;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px){
+  main {
+    .services {
+      .blocks {
+        a {
+          text-decoration: none;
+          margin-top: 15px;
+          border-radius: 17px;
+          background-color: #e47203;
+          padding: 5px 25px;
+          color: #ffffff;
+          font: 500 11px Roboto, sans-serif;
+
+          &:hover {
+            color: #e47203;
+            background-color: #fff;
+            border: 2px solid #e47203;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+  main {
+    .services {
+      .blocks {
+        a {
+          text-decoration: none;
+          margin-top: 15px;
+          border-radius: 17px;
+          background-color: #e47203;
+          padding: 5px 25px;
+          color: #ffffff;
+          font: 500 11px Roboto, sans-serif;
+
+          &:hover {
+            color: #e47203;
+            background-color: #fff;
+            border: 2px solid #e47203;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px){
+  main {
+    .services {
+      .blocks {
+        a {
+          text-decoration: none;
+          margin-top: 15px;
+          border-radius: 17px;
+          background-color: #e47203;
+          padding: 5px 25px;
+          color: #ffffff;
+          font: 500 11px Roboto, sans-serif;
+
+          &:hover {
+            color: #e47203;
+            background-color: #fff;
+            border: 2px solid #e47203;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

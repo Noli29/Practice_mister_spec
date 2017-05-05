@@ -178,14 +178,14 @@ main {
     background-color: #fff;
     display: inline-block;
     margin-top: 15px;
-    margin-left: 30px; }
+    margin-left: 20px; }
     .services .blocks div img {
       margin-bottom: 15px; }
     .services .blocks div p {
-      margin: 15px 0 25px;
+      margin: 0 0 10px;
       color: #231f20;
       font-family: Roboto, sans-serif;
-      font-size: 16px;
+      font-size: 10px;
       font-weight: 500;
       line-height: 22px; }
 
@@ -246,6 +246,66 @@ main .services .blocks a {
     border: 2px solid #e47203;
     text-decoration: none; }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
 header div.logo-header div.phone a.btn {
   border-radius: 22px;
   background-color: #e47203;
@@ -286,3 +346,329 @@ main .services .blocks a {
     background-color: #fff;
     border: 2px solid #e47203;
     text-decoration: none; }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  main .services .blocks a {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 17px;
+    background-color: #e47203;
+    padding: 5px 25px;
+    color: #ffffff;
+    font: 500 11px Roboto, sans-serif; }
+    main .services .blocks a:hover {
+      color: #e47203;
+      background-color: #fff;
+      border: 2px solid #e47203;
+      text-decoration: none; } }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  /*===header===*/
+  header div.logo-header div.list ul {
+    margin-left: -25px; }
+  header div.logo-header div.phone p:first-child {
+    font-size: 40px; }
+  header div.kitchen {
+    background: url("../images/kitchen.png") no-repeat -1490px; }
+    header div.kitchen img {
+      margin-left: -443px;
+      float: left;
+      margin-top: 90px;
+      width: 245%; }
+    header div.kitchen .form {
+      margin-top: 0;
+      padding: 25px 25px 20px;
+      display: inline-block;
+      box-shadow: 0 6px 6px rgba(45, 53, 50, 0);
+      background-color: #ffffff;
+      position: absolute;
+      top: 135%;
+      right: 16px;
+      opacity: 1; }
+      header div.kitchen .form p {
+        color: #231f20;
+        font: 500 18px Roboto, sans-serif; }
+        header div.kitchen .form p:last-child {
+          margin-top: 35px;
+          color: #231f20;
+          font: 300 10px Roboto, sans-serif; }
+  /*===main===*/
+  .services {
+    height: 990px;
+    background-color: #fcb040;
+    margin-bottom: 50px; }
+    .services .blocks div {
+      width: 48%;
+      float: left;
+      padding: 20px 0 30px;
+      border-radius: 10px;
+      border: 1px solid #e47203;
+      background-color: #fff;
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 5px; }
+      .services .blocks div img {
+        width: 50%;
+        margin-bottom: 15px; }
+      .services .blocks div p {
+        margin: 0;
+        color: #231f20;
+        font-family: Roboto, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 22px; }
+  /*===footer===*/
+  footer {
+    height: 550px;
+    background-color: #231f20; }
+    footer div .text p span {
+      padding-left: 0; } }
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  /*===header===*/
+  header div.logo-header div.list ul {
+    margin-left: -25px; }
+  header div.logo-header div.phone p:first-child {
+    font-size: 40px; }
+  header div.kitchen {
+    background: url("../images/kitchen.png") no-repeat -1490px; }
+    header div.kitchen img {
+      margin-left: -443px;
+      float: left;
+      margin-top: 92px;
+      width: 205%; }
+    header div.kitchen .form {
+      margin-top: 0;
+      padding: 25px 25px 20px;
+      display: inline-block;
+      box-shadow: 0 6px 6px rgba(45, 53, 50, 0);
+      background-color: #ffffff;
+      position: absolute;
+      top: 135%;
+      right: 45px;
+      opacity: 1; }
+      header div.kitchen .form p {
+        color: #231f20;
+        font: 500 18px Roboto, sans-serif; }
+        header div.kitchen .form p:last-child {
+          margin-top: 35px;
+          color: #231f20;
+          font: 300 10px Roboto, sans-serif; }
+  /*===main===*/
+  .services {
+    height: 1000px;
+    background-color: #fcb040;
+    margin-bottom: 50px; }
+    .services h3 {
+      padding-top: 10px; }
+    .services .blocks div {
+      width: 48%;
+      float: left;
+      padding: 20px 0 30px;
+      border-radius: 10px;
+      border: 1px solid #e47203;
+      background-color: #fff;
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 5px; }
+      .services .blocks div img {
+        width: 50%;
+        margin-bottom: 15px; }
+      .services .blocks div p {
+        margin: 0;
+        color: #231f20;
+        font-family: Roboto, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 22px; }
+  /*===footer===*/
+  footer {
+    height: 550px;
+    background-color: #231f20; }
+    footer div .text p span {
+      padding-left: 0; } }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  /*===header===*/
+  header div.logo-header div.list ul {
+    margin-left: -25px; }
+  header div.logo-header div.phone p:first-child {
+    font-size: 40px; }
+  header div.kitchen {
+    background: url("../images/kitchen.png") no-repeat -1490px; }
+    header div.kitchen img {
+      margin-left: -395px;
+      float: left;
+      margin-top: 98px;
+      width: 176%; }
+    header div.kitchen .form {
+      margin-top: 0;
+      padding: 25px 25px 20px;
+      display: inline-block;
+      box-shadow: 0 6px 6px rgba(45, 53, 50, 0);
+      background-color: #ffffff;
+      position: absolute;
+      top: 135%;
+      right: 75px;
+      opacity: 1; }
+      header div.kitchen .form p {
+        color: #231f20;
+        font: 500 18px Roboto, sans-serif; }
+        header div.kitchen .form p:last-child {
+          margin-top: 35px;
+          color: #231f20;
+          font: 300 10px Roboto, sans-serif; }
+  /*===main===*/
+  .services {
+    height: 1100px;
+    background-color: #fcb040;
+    margin-bottom: 50px; }
+    .services h3 {
+      padding-top: 10px; }
+    .services .blocks div {
+      width: 48%;
+      float: left;
+      padding: 20px 0 30px;
+      border-radius: 10px;
+      border: 1px solid #e47203;
+      background-color: #fff;
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 5px; }
+      .services .blocks div img {
+        width: 50%;
+        margin-bottom: 15px; }
+      .services .blocks div p {
+        margin: 0;
+        color: #231f20;
+        font-family: Roboto, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 22px; }
+  /*===footer===*/
+  footer {
+    height: 550px;
+    background-color: #231f20; }
+    footer div .text p span {
+      padding-left: 0; } }
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  /*===header===*/
+  header div.logo-header div.logo {
+    float: left;
+    display: inline-block; }
+    header div.logo-header div.logo img {
+      width: 50%; }
+    header div.logo-header div.logo p {
+      margin-top: 10px;
+      color: #231f20;
+      font: 300 22px Roboto, sans-serif; }
+      header div.logo-header div.logo p span {
+        margin-left: 70px; }
+  header div.logo-header div.list ul {
+    margin-left: -25px; }
+  header div.logo-header div.phone {
+    float: none; }
+    header div.logo-header div.phone p:first-child {
+      font-size: 40px; }
+  header div.kitchen {
+    background: url("../images/kitchen.png") no-repeat -1040px; }
+    header div.kitchen img {
+      float: left;
+      margin-top: 71px;
+      width: 102%; }
+    header div.kitchen .form {
+      margin-top: 0;
+      padding: 25px 25px 20px;
+      display: inline-block;
+      box-shadow: 0 6px 6px rgba(45, 53, 50, 0);
+      background-color: #ffffff;
+      position: absolute;
+      top: 100%;
+      right: 30%;
+      opacity: 1; }
+      header div.kitchen .form p {
+        color: #231f20;
+        font: 500 18px Roboto, sans-serif; }
+        header div.kitchen .form p:last-child {
+          margin-top: 35px;
+          color: #231f20;
+          font: 300 10px Roboto, sans-serif; }
+  /*===main===*/
+  .services {
+    height: 900px;
+    background-color: #fcb040;
+    margin-bottom: 50px; }
+    .services h3 {
+      padding-top: 10px; }
+    .services .blocks div {
+      width: 32%;
+      float: none;
+      padding: 20px 0 30px;
+      border-radius: 10px;
+      border: 1px solid #e47203;
+      background-color: #fff;
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 5px; }
+      .services .blocks div img {
+        width: 50%;
+        margin-bottom: 15px; }
+      .services .blocks div p {
+        margin: 0;
+        color: #231f20;
+        font-family: Roboto, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 22px; }
+  /*===footer===*/
+  footer {
+    height: 280px;
+    background-color: #231f20; }
+    footer div .text p span {
+      padding-left: 0; } }
